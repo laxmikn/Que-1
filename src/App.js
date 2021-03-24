@@ -11,9 +11,9 @@ class app extends Component {
     let arrayOrg = [1,2,3,4,5];
     const temp = arrayOrg;
     let newArr = [...temp, ...arrayOrg];
-   console.log("output for hello || world is below");
+   console.log("output for hello || world is: hello");
     console.log("hello" || "world");
-    console.log("output for foo and bar is below");
+    console.log("output for foo and bar is: bar");
     console.log("foo" && "bar");
 
     // fizz buzz logic
